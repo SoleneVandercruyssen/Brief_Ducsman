@@ -1,0 +1,154 @@
+body
+
+{color: $color_1;
+background-color: $background_2;
+margin-right: 0;
+}
+
+p{
+  color: $color_2;
+}
+
+.white{
+
+  color: white;
+}
+
+
+span{
+color: $color_1;
+}
+
+
+.contact{
+
+margin-left: 15%;
+
+}
+
+
+#one{
+display: flexbox;
+float: left;
+}
+
+/*formulaire*/
+
+#two
+{
+float: right;
+  display: flexbox;
+  margin-right: 0 -10 ;
+}
+
+input{
+background-color: $background_2 ;
+padding: 1%;
+}
+
+textarea{
+
+background-color: rgb(27, 27, 27);
+
+}
+
+
+#bouton{
+
+  align-self: self-end;
+color: white;
+background-color: rgb(172, 144, 104);
+padding: 2%;
+
+}
+
+/*map*/
+
+iframe{
+
+filter: grayscale(gray);
+align-self: bottom;
+margin-left: 15%;
+object-position: bottom;
+}
+
+.a-propos{
+  text-align: justify;
+display: flexbox;
+float: left;
+}
+
+
+.infos_sup{
+
+float: right;
+
+}
+
+.logos{
+
+width: 40vw;
+
+}
+
+#pinterest{
+
+background-color: #fff;
+
+}
+
+
+
+/*header*/
+
+.sidebar {
+  width: var(--sidebar-width);
+  background-color: var(--sidebar-color);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0; /* Correction de la position */
+  padding: 20px;
+  z-index: 2; /* Assure que la sidebar est au-dessus du header */
+  display: flex;
+  justify-content: space-between; /* Aligne la navigation à droite */
+  flex-direction: column;
+}
+
+.sidebar nav {
+  padding-right: 20px; /* Déplace la liste de navigation un peu plus à droite */
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s; /* Ajoute une transition pour la couleur */
+}
+
+.sidebar nav ul li a:hover {
+  color: var(--hover-color); /* Change la couleur au survol */
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+@media screen {
+  
+}
