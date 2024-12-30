@@ -2,18 +2,60 @@ body
 
 {color: $color_1;
 background-color: $background_2;
-margin-right: 0;
+margin-left: 20%;
 }
 
 p{
+
+font-family: Roboto;
+
+}
+
+@font-face {
+  font-family: Roboto;
+  font-size: medium;
+  font-weight: 100;
+  src: url(/Roboto/Roboto-Light.ttf)
+}
+
+
+@font-face {
+  font-family:Merriweather ;
+  font-size: small;
+  font-weight: 100;
+  src: url(/Merriweather/Merriweather-Bold.ttf);
+}
+
+@font-face {
+  font-family: Playfair;
+  font-size: medium;
+  font-weight: 100;
+  src: url(/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
+footer{
+  width: 900px;
+padding: 2%;
+display: inline-block;
+background-color: $background_1;
+}
+
+.doré{
+
   color: $color_2;
 }
 
-.white{
-
-  color: white;
+#adresse{
+  display: flexbox;
+  flex-direction: row;
+  flex-flow: column wrap;
 }
 
+#Rue {
+
+  flex-flow: column wrap;
+}
 
 span{
 color: $color_1;
@@ -34,6 +76,17 @@ float: left;
 
 /*formulaire*/
 
+#Nom{
+  margin-right: 10%;
+}
+
+#Numéro{
+
+  margin-right: 10%;
+
+}
+
+
 #two
 {
 float: right;
@@ -41,24 +94,44 @@ float: right;
   margin-right: 0 -10 ;
 }
 
+
+
+
+
 input{
 background-color: $background_2 ;
+border-bottom-style:ridge;
+border-left: none;
+border-right: none;
+border-top: none;
 padding: 1%;
+margin-top: 4%;
+margin-bottom: 4%;
 }
 
 textarea{
 
-background-color: rgb(27, 27, 27);
-
+background-color:$background_2;
+border-bottom-style:ridge;
+border-left: none;
+border-right: none;
+border-top: none;
+margin-top: 4%;
 }
 
 
 #bouton{
 
   align-self: self-end;
-color: white;
+color: $color_1;
 background-color: rgb(172, 144, 104);
 padding: 2%;
+
+}
+
+section{
+
+margin: 2%;
 
 }
 
@@ -66,16 +139,23 @@ padding: 2%;
 
 iframe{
 
-filter: grayscale(gray);
-align-self: bottom;
-margin-left: 15%;
+filter: grayscale(100);
+margin-left: 2%;
+margin-right: 2%;
 object-position: bottom;
 }
 
-.a-propos{
+#bas-de-page{
+
+  display: flexbox;
+  
+}
+
+#a-propos{
   text-align: justify;
 display: flexbox;
 float: left;
+margin-right: 2%;
 }
 
 
@@ -85,25 +165,23 @@ float: right;
 
 }
 
+#mail_2{
+
+text-decoration: underline $color_2;
+
+}
+
 .logos{
 
-width: 40vw;
+width: 80vw;
 
 }
-
-#pinterest{
-
-background-color: #fff;
-
-}
-
-
 
 /*header*/
 
 .sidebar {
-  width: var(--sidebar-width);
-  background-color: var(--sidebar-color);
+  width: 200px;
+  background-color: $background_1;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -143,11 +221,10 @@ header nav ul li {
   margin: 0 15px;
 }
 header nav ul li a {
-  color: #fff;
+  color: $color_1;
   text-decoration: none;
+
 }
-
-
 
 @media screen {
   

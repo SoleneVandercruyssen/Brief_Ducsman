@@ -36,6 +36,7 @@ Flaticon icon font: Flaticon
 }
 .flaticon-call:before {
 	content: '\f101';
+
 }
 .flaticon-phone:before {
 	content: '\f102';
