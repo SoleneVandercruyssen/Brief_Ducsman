@@ -3,12 +3,19 @@ body {
   color: white;
   background-color: rgb(24, 24, 24);
   margin-left: 20%;
+  margin-right: 18%;
 }
 
 p {
   font-family: Roboto;
 }
 
+@font-face {
+  font-family: Monserrat;
+  font-size: small;
+  font-weight: 100;
+  src: url(/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
 @font-face {
   font-family: Roboto;
   font-size: medium;
@@ -28,9 +35,10 @@ p {
   src: url(/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
 footer {
-  width: 900px;
-  padding: 2%;
-  display: inline-block;
+  margin-left: -11.5%;
+  margin-right: -30%;
+  margin-top: 10%;
+  padding: 1%;
   background-color: black;
 }
 
@@ -38,27 +46,16 @@ footer {
   color: rgb(165, 135, 0);
 }
 
-#adresse {
-  display: flexbox;
-  flex-direction: row;
-  flex-flow: column wrap;
-}
-
-#Rue {
-  flex-flow: column wrap;
-}
-
 span {
   color: white;
 }
 
 .contact {
-  margin-left: 15%;
+  display: flex;
 }
 
 #one {
-  display: flexbox;
-  float: left;
+  margin-right: 25%;
 }
 
 /*formulaire*/
@@ -72,8 +69,6 @@ span {
 
 #two {
   float: right;
-  display: flexbox;
-  margin-right: 0 -10;
 }
 
 input {
@@ -97,38 +92,27 @@ textarea {
 }
 
 #bouton {
-  align-self: self-end;
   color: white;
   background-color: rgb(172, 144, 104);
   padding: 2%;
 }
 
-section {
-  margin: 2%;
-}
-
 /*map*/
 iframe {
   filter: grayscale(100);
-  margin-left: 2%;
-  margin-right: 2%;
   -o-object-position: bottom;
      object-position: bottom;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 #bas-de-page {
-  display: flexbox;
+  display: flex;
 }
 
 #a-propos {
-  text-align: justify;
-  display: flexbox;
-  float: left;
-  margin-right: 2%;
-}
-
-.infos_sup {
-  float: right;
+  width: 50%;
+  margin-right: 15%;
 }
 
 #mail_2 {
@@ -137,7 +121,8 @@ iframe {
 }
 
 .logos {
-  width: 80vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*header*/
@@ -186,4 +171,13 @@ header nav ul li {
 header nav ul li a {
   color: white;
   text-decoration: none;
+}
+
+@media screen {
+  footer {
+    margin-left: -20%;
+  }
+  iframe {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */

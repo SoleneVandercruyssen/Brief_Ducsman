@@ -1,14 +1,20 @@
-body
-
-{color: $color_1;
+body {
+  color: $color_1;
 background-color: $background_2;
 margin-left: 20%;
+margin-right: 18%;
 }
 
 p{
 
 font-family: Roboto;
+}
 
+@font-face {
+  font-family: Monserrat;
+  font-size: small;
+  font-weight: 100;
+  src: url(/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
@@ -35,43 +41,34 @@ font-family: Roboto;
 
 
 footer{
-  width: 900px;
-padding: 2%;
-display: inline-block;
+  margin-left: -11.5%;
+  margin-right: -30%;
+  margin-top: 10%;
+padding: 1%;
 background-color: $background_1;
 }
+
+
+
+
 
 .doré{
 
   color: $color_2;
 }
 
-#adresse{
-  display: flexbox;
-  flex-direction: row;
-  flex-flow: column wrap;
-}
-
-#Rue {
-
-  flex-flow: column wrap;
-}
-
 span{
 color: $color_1;
 }
 
-
 .contact{
 
-margin-left: 15%;
-
+  display: flex;
 }
 
-
 #one{
-display: flexbox;
-float: left;
+
+margin-right: 25%;
 }
 
 /*formulaire*/
@@ -83,20 +80,12 @@ float: left;
 #Numéro{
 
   margin-right: 10%;
-
 }
-
 
 #two
 {
 float: right;
-  display: flexbox;
-  margin-right: 0 -10 ;
 }
-
-
-
-
 
 input{
 background-color: $background_2 ;
@@ -110,7 +99,6 @@ margin-bottom: 4%;
 }
 
 textarea{
-
 background-color:$background_2;
 border-bottom-style:ridge;
 border-left: none;
@@ -119,20 +107,10 @@ border-top: none;
 margin-top: 4%;
 }
 
-
 #bouton{
-
-  align-self: self-end;
 color: $color_1;
 background-color: rgb(172, 144, 104);
 padding: 2%;
-
-}
-
-section{
-
-margin: 2%;
-
 }
 
 /*map*/
@@ -140,41 +118,29 @@ margin: 2%;
 iframe{
 
 filter: grayscale(100);
-margin-left: 2%;
-margin-right: 2%;
 object-position: bottom;
+margin-bottom: 10%;
+margin-top: 10%;
 }
 
-#bas-de-page{
-
-  display: flexbox;
-  
+#bas-de-page {
+  display: flex;
 }
 
-#a-propos{
-  text-align: justify;
-display: flexbox;
-float: left;
-margin-right: 2%;
-}
-
-
-.infos_sup{
-
-float: right;
-
+#a-propos {
+  width: 50%;
+  margin-right: 15%;
 }
 
 #mail_2{
 
-text-decoration: underline $color_2;
-
+  text-decoration: underline $color_2;
+  
 }
 
-.logos{
-
-width: 80vw;
-
+.logos {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*header*/
@@ -226,6 +192,21 @@ header nav ul li a {
 
 }
 
-@media screen {
+@media screen  {
   
+footer{
+
+margin-left: -20%;
+
+}
+
+
+
+iframe{
+
+  width: 100%;
+
+}
+
+
 }
