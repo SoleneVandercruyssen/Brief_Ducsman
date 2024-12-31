@@ -1,0 +1,21 @@
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/variables";
+
+@import "../base/reset";
+@import "../base/typography";
+
+@import "../components/buttons";
+
+header {
+  @include header;
+  @include column_center;
+}
+
+#header_deluxe {
+  background-image: $background_deluxe;
+}
+
+#header_accueil {
+  background-image: $background_accueil;
+}
