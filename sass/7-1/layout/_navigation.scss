@@ -1,0 +1,14 @@
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/variables";
+
+@import "../base/reset";
+@import "../base/typography";
+
+nav li {
+  list-style: none;
+  margin: 20px 0;
+}
+nav ul li a {
+  text-decoration: none;
+}
