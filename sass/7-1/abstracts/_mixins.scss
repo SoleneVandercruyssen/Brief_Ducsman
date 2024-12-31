@@ -1,9 +1,3 @@
-@import "../abstracts/placeholders";
-@import "../abstracts/variables";
-
-@import "../base/reset";
-@import "../base/typography";
-
 @mixin align {
   display: flex;
   flex-direction: row;
