@@ -1,0 +1,25 @@
+@import "../abstracts/mixins";
+@import "../abstracts/placeholders";
+@import "../abstracts/variables";
+
+@import "../base/reset";
+@import "../base/typography";
+
+@import "../components/buttons";
+
+footer {
+  background-color: $background_2;
+  @include footer;
+}
+
+footer ul {
+  @include align;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
