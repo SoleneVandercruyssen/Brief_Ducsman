@@ -1,0 +1,50 @@
+@import "../abstracts/placeholders";
+@import "../abstracts/variables";
+
+@import "../base/reset";
+@import "../base/typography";
+
+@mixin align {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin justify_center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin column_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+@mixin header {
+  background-size: cover;
+  height: 90vh;
+}
+
+@mixin footer {
+  background-size: cover;
+  padding: 40px 0px;
+  @include justify_center;
+}
+
+@mixin button {
+  border: 2px solid;
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+
+@mixin clear_button {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
