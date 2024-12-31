@@ -1,66 +1,29 @@
 body {
   color: $color_1;
-background-color: $background_2;
-margin-left: 20%;
-margin-right: 18%;
+  background-color: $background_2;
+  margin-left: 23%;
+  margin-right: 18%;
 }
-
-p{
-
-font-family: Roboto;
-}
-
-@font-face {
-  font-family: Monserrat;
-  font-size: small;
-  font-weight: 100;
-  src: url(/Montserrat/Montserrat-VariableFont_wght.ttf);
-}
-
-@font-face {
-  font-family: Roboto;
-  font-size: medium;
-  font-weight: 100;
-  src: url(/Roboto/Roboto-Light.ttf)
-}
-
-
-@font-face {
-  font-family:Merriweather ;
-  font-size: small;
-  font-weight: 100;
-  src: url(/Merriweather/Merriweather-Bold.ttf);
-}
-
-@font-face {
-  font-family: Playfair;
-  font-size: medium;
-  font-weight: 100;
-  src: url(/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
-}
-
 
 footer{
-  margin-left: -11.5%;
-  margin-right: -30%;
-  margin-top: 10%;
-padding: 1%;
-background-color: $background_1;
+  text-align: center;
+  background-color: $background_1;
 }
 
+/*agrandissement des icônes */
 
+.new-taille{
+  font-size: x-large;
+}
 
-
+/*class : couleur*/
 
 .doré{
 
   color: $color_2;
 }
 
-span{
-color: $color_1;
-}
-
+/*partie gauche*/
 .contact{
 
   display: flex;
@@ -68,10 +31,16 @@ color: $color_1;
 
 #one{
 
-margin-right: 25%;
+  margin-right: 25%;
 }
 
-/*formulaire*/
+/*formulaire (partie droite)*/
+
+#two
+{
+  float: right;
+  margin-left: -5%;
+}
 
 #Nom{
   margin-right: 10%;
@@ -82,46 +51,53 @@ margin-right: 25%;
   margin-right: 10%;
 }
 
-#two
-{
-float: right;
+#adresse{
+
+  display: flex;
+
 }
 
 input{
-background-color: $background_2 ;
-border-bottom-style:ridge;
-border-left: none;
-border-right: none;
-border-top: none;
-padding: 1%;
-margin-top: 4%;
-margin-bottom: 4%;
+  background-color: $background_2 ;
+  border-bottom-style:ridge;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 1%;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 textarea{
-background-color:$background_2;
-border-bottom-style:ridge;
-border-left: none;
-border-right: none;
-border-top: none;
-margin-top: 4%;
+  background-color:$background_2;
+  border-bottom-style:ridge;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-top: 6%;
 }
 
 #bouton{
-color: $color_1;
-background-color: rgb(172, 144, 104);
-padding: 2%;
+  color: $color_1;
+  background-color: rgb(172, 144, 104);
+  font-family: Roboto;
+  font-size: x-small;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 3%
 }
 
-/*map*/
+/*Map*/
 
 iframe{
 
-filter: grayscale(100);
-object-position: bottom;
-margin-bottom: 10%;
-margin-top: 10%;
+  filter: grayscale(100);
+  object-position: bottom;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
+
+/*Partie du bas*/
 
 #bas-de-page {
   display: flex;
@@ -132,15 +108,18 @@ margin-top: 10%;
   margin-right: 15%;
 }
 
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -1%;
+
+}
+
+/*Souligner l'adresse mail*/
 #mail_2{
 
   text-decoration: underline $color_2;
   
-}
-
-.logos {
-  display: flex;
-  justify-content: space-between;
 }
 
 /*header*/
@@ -160,7 +139,7 @@ margin-top: 10%;
 }
 
 .sidebar nav {
-  padding-right: 20px; /* Déplace la liste de navigation un peu plus à droite */
+   padding-right: 20px; /* Déplace la liste de navigation un peu plus à droite */
 }
 
 .sidebar nav ul {
@@ -173,40 +152,30 @@ margin-top: 10%;
 }
 
 .sidebar nav ul li a {
-  color: var(--text-color);
+  color: $color_1;
   text-decoration: none;
   font-size: 20px;
-  transition: color 0.3s; /* Ajoute une transition pour la couleur */
+   transition: color 0.3s; /* Ajoute une transition pour la couleur */
 }
 
 .sidebar nav ul li a:hover {
-  color: var(--hover-color); /* Change la couleur au survol */
+   color: var(--hover-color); /* Change la couleur au survol */
 }
 
 header nav ul li {
   margin: 0 15px;
 }
+
 header nav ul li a {
   color: $color_1;
   text-decoration: none;
-
 }
 
-@media screen  {
-  
-footer{
-
-margin-left: -20%;
-
-}
-
-
+@media screen and (width : 837px height: 512px;)  {
 
 iframe{
 
   width: 100%;
-
 }
-
 
 }

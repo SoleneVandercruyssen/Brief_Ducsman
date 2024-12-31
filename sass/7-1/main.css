@@ -1,39 +1,31 @@
 @charset "UTF-8";
-body {
-  color: white;
-  background-color: rgb(24, 24, 24);
-  margin-left: 20%;
-  margin-right: 18%;
-}
-
-p {
-  font-family: Roboto;
-}
-
 @font-face {
-  font-family: Monserrat;
-  font-size: small;
-  font-weight: 100;
+  font-family: Sedan;
+  src: url(/Sedan/Sedan-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat;
   src: url(/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: Roboto;
-  font-size: medium;
-  font-weight: 100;
   src: url(/Roboto/Roboto-Light.ttf);
 }
 @font-face {
   font-family: Merriweather;
-  font-size: small;
-  font-weight: 100;
   src: url(/Merriweather/Merriweather-Bold.ttf);
 }
 @font-face {
   font-family: Playfair;
-  font-size: medium;
-  font-weight: 100;
   src: url(/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
+body {
+  color: white;
+  background-color: rgb(24, 24, 24);
+  margin-left: 23%;
+  margin-right: 18%;
+}
+
 footer {
   margin-left: -11.5%;
   margin-right: -30%;
@@ -42,14 +34,17 @@ footer {
   background-color: black;
 }
 
+/*agrandissement des icônes */
+.new-taille {
+  font-size: x-large;
+}
+
+/*class : couleur*/
 .doré {
   color: rgb(165, 135, 0);
 }
 
-span {
-  color: white;
-}
-
+/*partie gauche*/
 .contact {
   display: flex;
 }
@@ -58,7 +53,12 @@ span {
   margin-right: 25%;
 }
 
-/*formulaire*/
+/*formulaire (partie droite)*/
+#two {
+  float: right;
+  margin-left: -5%;
+}
+
 #Nom {
   margin-right: 10%;
 }
@@ -67,8 +67,8 @@ span {
   margin-right: 10%;
 }
 
-#two {
-  float: right;
+#adresse {
+  display: flex;
 }
 
 input {
@@ -78,8 +78,8 @@ input {
   border-right: none;
   border-top: none;
   padding: 1%;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 textarea {
@@ -88,16 +88,20 @@ textarea {
   border-left: none;
   border-right: none;
   border-top: none;
-  margin-top: 4%;
+  margin-top: 6%;
 }
 
 #bouton {
   color: white;
   background-color: rgb(172, 144, 104);
-  padding: 2%;
+  font-family: Roboto;
+  font-size: x-small;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 3%;
 }
 
-/*map*/
+/*Map*/
 iframe {
   filter: grayscale(100);
   -o-object-position: bottom;
@@ -106,6 +110,7 @@ iframe {
   margin-top: 10%;
 }
 
+/*Partie du bas*/
 #bas-de-page {
   display: flex;
 }
@@ -115,14 +120,16 @@ iframe {
   margin-right: 15%;
 }
 
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -1%;
+}
+
+/*Souligner l'adresse mail*/
 #mail_2 {
   -webkit-text-decoration: underline rgb(165, 135, 0);
           text-decoration: underline rgb(165, 135, 0);
-}
-
-.logos {
-  display: flex;
-  justify-content: space-between;
 }
 
 /*header*/
@@ -154,7 +161,7 @@ iframe {
 }
 
 .sidebar nav ul li a {
-  color: var(--text-color);
+  color: white;
   text-decoration: none;
   font-size: 20px;
   transition: color 0.3s; /* Ajoute une transition pour la couleur */
@@ -173,10 +180,7 @@ header nav ul li a {
   text-decoration: none;
 }
 
-@media screen {
-  footer {
-    margin-left: -20%;
-  }
+@media screen and (height > 600px) {
   iframe {
     width: 100%;
   }
