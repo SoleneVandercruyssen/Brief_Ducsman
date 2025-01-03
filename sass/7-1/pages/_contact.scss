@@ -1,13 +1,19 @@
-body {
-  color: $color_1;
-  background-color: $background_2;
-  margin-left: 23%;
-  margin-right: 18%;
-}
-
 footer{
   text-align: center;
   background-color: $background_1;
+}
+
+body {
+  color: $color_1;
+  background-color: $background_2;
+  font-family: Montserrat;
+}
+
+.class_titre {
+
+  font-family: Playfair;
+  font-size: xx-large;
+  font-weight: 600;
 }
 
 /*agrandissement des icônes */
@@ -21,6 +27,7 @@ footer{
 .doré{
 
   color: $color_2;
+  font-family: Montserrat;
 }
 
 /*partie gauche*/
@@ -29,63 +36,15 @@ footer{
   display: flex;
 }
 
+/*partie gauche*/
+
 #one{
-
-  margin-right: 25%;
-}
-
-/*formulaire (partie droite)*/
-
-#two
-{
-  float: right;
-  margin-left: -5%;
-}
-
-#Nom{
-  margin-right: 10%;
-}
-
-#Numéro{
-
-  margin-right: 10%;
-}
-
-#adresse{
-
-  display: flex;
-
-}
-
-input{
-  background-color: $background_2 ;
-  border-bottom-style:ridge;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  padding: 1%;
-  margin-top: 6%;
-  margin-bottom: 6%;
-}
-
-textarea{
-  background-color:$background_2;
-  border-bottom-style:ridge;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  margin-top: 6%;
-}
-
-#bouton{
-  color: $color_1;
-  background-color: rgb(172, 144, 104);
+  margin-top: 2%;
+  margin-right: 13%;
+  margin-left: 10%;
   font-family: Roboto;
-  font-size: x-small;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 3%
 }
+
 
 /*Map*/
 
@@ -95,6 +54,7 @@ iframe{
   object-position: bottom;
   margin-bottom: 10%;
   margin-top: 10%;
+  margin-left: 10%;
 }
 
 /*Partie du bas*/
@@ -103,16 +63,25 @@ iframe{
   display: flex;
 }
 
+
 #a-propos {
   width: 50%;
   margin-right: 15%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  font-family: Roboto;
+}
+
+.infos_sup{
+
+margin-bottom: 10%;
+margin-left: -5%;
+
+
 }
 
 .logos {
   display: flex;
-  justify-content: space-around;
-  margin-left: -1%;
-
 }
 
 /*Souligner l'adresse mail*/
@@ -122,52 +91,56 @@ iframe{
   
 }
 
-/*header*/
+// /*header*/
 
-.sidebar {
-  width: 200px;
-  background-color: $background_1;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0; /* Correction de la position */
-  padding: 20px;
-  z-index: 2; /* Assure que la sidebar est au-dessus du header */
-  display: flex;
-  justify-content: space-between; /* Aligne la navigation à droite */
-  flex-direction: column;
-}
+//  .sidebar {
+//   width: 200px;
+//   background-color: $background_1;
+//   height: 100vh;
+//   position: fixed;
+//   top: 0;
+//   left: 0; /* Correction de la position */
+//   padding: 20px;
+//   z-index: 2; /* Assure que la sidebar est au-dessus du header */
+//   display: flex;
+//   justify-content: space-between; /* Aligne la navigation à droite */
+//   flex-direction: column;
+// }
 
-.sidebar nav {
-   padding-right: 20px; /* Déplace la liste de navigation un peu plus à droite */
-}
+// .sidebar nav {
+//    padding-right: 20px; /* Déplace la liste de navigation un peu plus à droite */
+// }
 
-.sidebar nav ul {
-  list-style: none;
-  padding: 0;
-}
+// .sidebar nav ul {
+//   list-style: none;
+//   padding: 0;
+// }
 
-.sidebar nav ul li {
-  margin: 20px 0;
-}
+// .sidebar nav ul li {
+//   margin: 20px 0;
+// }
 
-.sidebar nav ul li a {
-  color: $color_1;
-  text-decoration: none;
-  font-size: 20px;
-   transition: color 0.3s; /* Ajoute une transition pour la couleur */
-}
+// .sidebar nav ul li a {
+//   color: $color_1;
+//   text-decoration: none;
+//   font-size: 20px;
+//    transition: color 0.3s; /* Ajoute une transition pour la couleur */
+// }
 
-.sidebar nav ul li a:hover {
-   color: var(--hover-color); /* Change la couleur au survol */
-}
+// .sidebar nav ul li a:hover {
+//    color: var(--hover-color); /* Change la couleur au survol */
+// }
 
-header nav ul li {
-  margin: 0 15px;
-}
+// header nav ul li {
+//   margin: 0 15px;
+// }
 
-header nav ul li a {
-  color: $color_1;
-  text-decoration: none;
-}
+// header nav ul li a {
+//   color: $color_1;
+//   text-decoration: none;
+// }
 
+<<<<<<< HEAD
+=======
+// 
+>>>>>>> 772d3bdebcfdf6ec3f165352a0fc38e4636914de

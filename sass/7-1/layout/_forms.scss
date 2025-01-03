@@ -1,0 +1,44 @@
+/*formulaire (partie droite)*/
+
+#two
+{
+  float: right;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+#Nom{
+  margin-right: 10%;
+}
+
+#Numéro{
+
+  margin-right: 10%;
+}
+
+#adresse{
+
+  display: flex;
+
+}
+
+input{
+  background-color: $background_2 ;
+  border-bottom-style:ridge;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 2%;
+  padding-left: none;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+textarea{
+  background-color:$background_2;
+  border-bottom-style:ridge;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-top: 6%;
+}

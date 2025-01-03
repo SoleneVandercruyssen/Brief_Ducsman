@@ -1,9 +1,3 @@
-@import "../abstracts/mixins";
-@import "../abstracts/placeholders";
-@import "../abstracts/variables";
-
-@import "../base/reset";
-@import "../base/typography";
 
 .clear_button {
   @include button;
@@ -13,3 +7,12 @@
 .pivot {
   transform: $pivot;
 }
+
+#bouton_envoyer {
+  color: $color_1;
+  background-color: rgb(172, 144, 104);
+  font-family: Roboto;
+  font-size: x-small;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 3%}
