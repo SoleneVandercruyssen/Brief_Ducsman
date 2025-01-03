@@ -1,3 +1,30 @@
+.transparent-button {
+  background-color: transparent;
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+  padding: var(--button-padding);
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: var(--button-margin);
+  position: relative;
+  z-index: 1;
+}
+
+.learn-more-button {
+  background-color: var(--learn-more-button-background);
+  color: var(--learn-more-button-color);
+  border: none;
+  padding: var(--button-padding);
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.learn-more-button:hover {
+  background-color: var(--hover-color);
+}
+
+
 
 .clear_button {
   @include button;
