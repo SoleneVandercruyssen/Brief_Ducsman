@@ -1,115 +1,310 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accueil</title>
-    <link rel="stylesheet" href="sass/7-1/main.css" />
-    <link rel="stylesheet" href="sass/ressources_ducsman/css/flaticons.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <aside>
-      <div id="nav_top">
-        <div id="nav_étoile">
-          <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-          <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-          <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-          <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-          <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L'Expérience du Luxe</title>
+  <link rel="stylesheet" href="css/flaticons.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedan:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-        <h1 id="logo">Ducsman</h1>
-
-        <h2>Lorem, ipsum dolor.</h2>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <img src="images/stars.png" alt="Étoile" />
+      <h2>DUCSMAN</h2>
+      <h3 class="centered-text">DORMEZ COMME JAMAIS</h3>
+      <h3 class="centered-text">Je ramene le petit dej</h3>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#accueil" class="nav-link">Accueil</a></li>
+        <li><a href="#propos" class="nav-link">À propos</a></li>
+        <li><a href="#chambres" class="nav-link">Chambres & Suites</a></li>
+        <li><a href="#restaurant" class="nav-link">Restaurant</a></li>
+        <li><a href="#bien-etre" class="nav-link">Centre de bien-être</a></li>
+        <li><a href="#actualite" class="nav-link">Actualité</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="contact-info">
+      <div class="phone-info">
+        <img src="images/call.png" alt="Téléphone" class="phone-icon" />
       </div>
-
-      <nav>
-        <ul>
-          <li><a href="Accueil.html">ACCUEIL</a></li>
-
-          <li><a href="#">A PROPOS</a></li>
-
-          <li><a href="Chambre_&_Suites.html">CHAMBRES & SUITES</a></li>
-
-          <li><a href="#">RESTAURANTS</a></li>
-
-          <li><a href="#">CENTRE DE BIEN-ÊTRE</a></li>
-
-          <li><a href="#">ACTUALITÉ</a></li>
-
-          <li><a href="Contact.html"></a>CONTACT</li>
-        </ul>
-      </nav>
-
-      <div id="nav_bottom">
-        <!-- <div id="nav_tel_icon">
-          <img
-            src="sass/ressources_ducsman/fonts/appel-telephonique.png"
-            alt="tel"
-          />
-        </div> -->
-        <p class="flaticon-call"></p>
-        <div id="nav_bottom_left">
-          <h3 id="nav_h3">Informations & Réservations</h3>
-          <h4 id="nav_h4">03 20 01 02 03</h4>
+      <div class="text-info">
+        <p class="white-text">Informations & Réservations</p>
+        <p class="gold-text">03 20 01 02 03</p>
+      </div>
+    </div>
+  </aside>
+  <main>
+    <header>
+      <div class="header-content">
+        <div class="star-image-container">
+          <img src="images/starsyellow.png" alt="Étoile" class="header-star-image" />
+        </div>
+        <h3 class="gold-title">Hôtel de luxe à Paris</h3>
+        <h1>L'Expérience du Luxe</h1>
+        <p class="white-text">Vivez une expérience unique dans notre hôtel de luxe.</p>
+        <button class="transparent-button">Chambres & Suites</button>
+      </div>
+    </header>
+    <section class="experience">
+      <div class="experience-content">
+        <div class="star-image-container">
+          <img src="images/starsyellow.png" alt="Étoile" class="star-image" />
+        </div>
+        <h3 class="gold-title">HÔTEL DE LUXE DUCSMAN</h3>
+        <h2>L'Expérience du Luxe</h2>
+        <p class="white-text">
+          Notre hôtel de luxe offre une expérience unique avec des chambres et
+          suites élégantes, un restaurant gastronomique, un spa de bien-être et
+          bien plus encore.<br>
+          Profitez de notre hospitalité et de nos services de qualité.
+        </p>
+      </div>
+      <div class="hotel">
+        <div class="hotel-image-container room8">
+          <img src="images/room8.jpg" alt="Chambre de luxe" class="hotel-image room8">
+        </div>
+        <div class="hotel-image-container room2">
+          <img src="images/room2.jpg" alt="Chambre de luxe" class="hotel-image room2">
         </div>
       </div>
-    </aside>
-    <div id="left">
-      <main>
-        <header id="header_accueil">
-          <div id="header_étoile">
-            <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-            <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-            <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-            <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-            <img src="sass/ressources_ducsman/fonts/etoile.png" alt="étoile" />
-          </div>
-
-          <p class="mini_texte">Lorem ipsum dolor sit amet.</p>
-
-          <h1>CHAMBRE DELUXE</h1>
-
-          <a href="Chambre_&_Suites.html"
-            ><button class="clear_button">CHAMBRES & SUITES</button></a
-          >
-        </header>
-
-        <section id="chambre_detail">
-          <div id="chambre_detail_left">
-            <div id="chambre_detail_text">
-              <p class="mini_texte">DUCSMAN</p>
-
-              <h1>Chambre Deluxe</h1>
-
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Ratione quam numquam cupiditate corporis ex quaerat dolore
-                itaque expedita sapiente repudiandae quidem, fugiat eveniet
-                facere, nostrum libero quasi sit est magni.
-              </p>
+    </section>
+    <section class="rooms">
+      <h3 class="gold-title">Ducsman</h3>
+      <h2>Chambres & Suites</h2>
+      <div class="room-types">
+        <div class="room-row">
+          <div class="room">
+            <div class="room-image-container">
+              <img src="images/room1.jpg" alt="Chambre de Luxe" />
+              <div class="vertical-button">réserver</div>
+            </div>
+            <div class="room-title">
+              <h3>150 € / NUIT</h3>
+              <h3 class="room-name">Chambre Junior</h3>
             </div>
           </div>
-        </section>
-      </main>
-      <footer>
-        <ul>
-          <li><a href="#">Mentions légales</a></li>
-          <li>-</li>
-          <li><a href="#">Conditions Générales de Ventes</a></li>
-          <li>-</li>
-          <li><a href="#">Politique de confidentialité</a></li>
-          <li>-</li>
-          <li>&copy; Copiright 2023 - Ducsman Group</li>
-        </ul>
-      </footer>
-    </div>
-  </body>
+          <div class="room">
+            <div class="room-image-container">
+              <img src="images/room2.jpg" alt="Chambre Familiale" />
+              <div class="vertical-button">réserver</div>
+            </div>
+            <div class="room-title">
+              <h3>200 € / NUIT</h3>
+              <h3 class="room-name">Chambre Familiale</h3>
+            </div>
+          </div>
+          <div class="room">
+            <div class="room-image-container">
+              <img src="images/room3.jpg" alt="Chambre Double" />
+              <div class="vertical-button">réserver</div>
+            </div>
+            <div class="room-title">
+              <h3>250 € / NUIT</h3>
+              <h3 class="room-name">Chambre Double</h3>
+            </div>
+          </div>
+        </div>
+        <div class="room-row">
+          <div class="room">
+            <div class="room-image-container">
+              <img src="images/room4.jpg" alt="Chambre Deluxe" />
+              <div class="vertical-button">réserver</div>
+            </div>
+            <div class="room-title">
+              <h3>300 € / NUIT</h3>
+              <h3 class="room-name">Chambre Deluxe</h3>
+            </div>
+          </div>
+          <div class="room">
+            <div class="room-image-container">
+              <img src="images/room7.jpg" alt="Chambre Supérieure" />
+              <div class="vertical-button">réserver</div>
+            </div>
+            <div class="room-title">
+              <h3>150 € / NUIT</h3>
+              <h3 class="room-name">Chambre Supérieure</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="combined-section">
+      <!-- Section pour le Restaurant -->
+      <div class="combined-content">
+        <div class="combined-image">
+          <img src="images/restaurant.jpg" alt="Restaurant" />
+        </div>
+        <div class="combined-details">
+          <div class="combined-box">
+            <h3 class="gold-title">Découverte</h3> <!-- Titre de la section -->
+            <h2>Le Restaurant</h2> <!-- Sous-titre de la section -->
+            <p class="white-text">
+              Découvrez notre cuisine raffinée et savoureuse. Une sélection de
+              vins et de cocktails pour accompagner votre repas.
+            </p> <!-- Paragraphe de la section -->
+            <button class="learn-more-button">En savoir plus</button> <!-- Bouton "En savoir plus" -->
+          </div>
+        </div>
+      </div>
+      <!-- Section pour le Centre de bien-être -->
+      <div class="combined-content">
+        <div class="combined-details">
+          <div class="combined-box">
+            <h3 class="gold-title">Expérience</h3> <!-- Titre de la section -->
+            <h2>Bien-être & Détente</h2> <!-- Sous-titre de la section -->
+            <p class="white-text">
+              Profitez de notre spa de bien-être avec piscine intérieure, sauna et
+              massages relaxants.
+            </p> <!-- Paragraphe de la section -->
+            <button class="learn-more-button">En savoir plus</button> <!-- Bouton "En savoir plus" -->
+          </div>
+        </div>
+        <div class="combined-image">
+          <img src="images/spa3.jpg" alt="Centre de bien-être" />
+        </div>
+      </div>
+      <!-- Section pour le Centre de fitness -->
+      <div class="combined-content">
+        <div class="combined-image">
+          <img src="images/spa2.jpg" alt="Centre de fitness" />
+        </div>
+        <div class="combined-details">
+          <div class="combined-box">
+            <h3 class="gold-title">Épanouissement</h3> <!-- Titre de la section -->
+            <h2>Centre de fitness</h2> <!-- Sous-titre de la section -->
+            <p class="white-text">
+              Profitez de notre piscine intérieure et de notre espace détente.
+            </p> <!-- Paragraphe de la section -->
+            <button class="learn-more-button">En savoir plus</button> <!-- Bouton "En savoir plus" -->
+          </div>
+        </div>
+      </div>
+      <!-- Section pour le Centre aquatique -->
+      <div class="combined-content">
+        <div class="combined-details">
+          <div class="combined-box">
+            <h3 class="gold-title">Expérience</h3> <!-- Titre de la section -->
+            <h2>Centre aquatique</h2> <!-- Sous-titre de la section -->
+            <p class="white-text">
+              Profitez de notre piscine intérieure et de notre espace détente.
+            </p> <!-- Paragraphe de la section -->
+            <button class="learn-more-button">En savoir plus</button> <!-- Bouton "En savoir plus" -->
+          </div>
+        </div>
+        <div class="combined-image">
+          <img src="images/spa1.jpg" alt="Centre aquatique" />
+        </div>
+      </div>
+    </section>
+    <section class="options">
+      <h2 class="options-title">Options</h2>
+      <div class="options-info">
+        <div class="phone-info">
+          <img src="images/call.png" alt="Téléphone" class="phone-icon" />
+        </div>
+        <div class="text-info">
+          <p class="white-text">Certaines options sont disponibles comme <br> le petit déjeuner ou un coffre-fort
+            sécurisé</p>
+          <p class="white-text">Informations</p>
+          <p class="white-text">03 20 01 02 03</p>
+        </div>
+      </div>
+      <div class="option-types">
+        <div class="option-item breakfast">
+          <h2>Petit déjeuner</h2>
+          <p class="price">30 € <span>/ jour</span></p>
+          <p class="white-text">Non inclus dans le prix de la chambre</p>
+          <div>
+            <img src="images/checkmark(1).png" alt="Inclus">
+            <span>Inclus</span>
+          </div>
+          <div>
+            <img src="images/checkmark(1).png" alt="Inclus">
+            <span>Inclus</span>
+          </div>
+          <div>
+            <img src="images/close(1).png" alt="Non inclus">
+            <span>Non inclus</span>
+          </div>
+        </div>
+        <div class="option-item safe">
+          <h2>Coffre-fort sécurisé</h2>
+          <p class="price">15 € <span>/ jour</span></p>
+          <p class="white-text">Pour sécuriser vos objets de valeur</p>
+          <div>
+            <img src="images/checkmark(1).png" alt="Inclus">
+            <span>Inclus</span>
+          </div>
+          <div>
+            <img src="images/checkmark(1).png" alt="Inclus">
+            <span>Inclus</span>
+          </div>
+          <div>
+            <img src="images/close(1).png" alt="Non inclus">
+            <span>Non inclus</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <h2 class="services-title">Services en +</h2>
+      <div class="service-types">
+        <div class="service-item">
+          <img src="images/dans-le-monde.png" alt="Transfert" />
+          <h3>Transferts</h3>
+          <p class="white-text">Nous pouvons venir vous chercher directement à l'aéroport en voiture individuelle</p>
+        </div>
+        <div class="service-item">
+          <img src="images/car12.png" alt="Parking" />
+          <h3>Parking</h3>
+          <p class="white-text">Une place de parking peut vous être réservée</p>
+        </div>
+        <div class="service-item">
+          <img src="images/lit.png" alt="Room Service" />
+          <h3>Room Service</h3>
+          <p class="white-text">Nous nous occupons du nettoyage de la chambre et de l'entretien de vos vêtements</p>
+        </div>
+        <div class="service-item">
+          <img src="images/swimming.png" alt="Piscine" />
+          <h3>Piscine</h3>
+          <p class="white-text">Une piscine chauffée est à votre disposition</p>
+        </div>
+        <div class="service-item">
+          <img src="images/wifi(3).png" alt="Accès internet" />
+          <h3>Accès internet</h3>
+          <p class="white-text">Accès WiFi gratuit disponible dans l'ensemble de l'hôtel</p>
+        </div>
+        <div class="service-item">
+          <img src="images/table.png" alt="Petit Déjeuner" />
+          <h3>Petit Déjeuner</h3>
+          <p class="white-text">Le Restaurant vous propose, tous les matins, un buffet continental</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="white-text">
+      Mentions légales - Conditions Générales de Vente - Politique de
+      confidentialité - © Copyright 2023 - Ducsman Group
+    </p>
+  </footer>
+</body>
+
 </html>

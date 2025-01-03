@@ -12,4 +12,35 @@ $background_accueil: url(../ressources_ducsman/images/slider/Slider_1.jpg);
 $background_deluxe: url(../ressources_ducsman/images/slider/Slider_2.jpg);
 $pivot: rotate(-90deg);
 
-
+/* _variables.scss */
+:root {
+  $primary-color: #333;
+  $secondary-color: #666;
+  $background-color: #333232;
+  $text-color: #fff;
+  $gold-color: #c0a066;
+  $sidebar-width: 400px;
+  $sidebar-color: #1b1b1b;
+  $button-padding: 10px 20px;
+  $button-margin: 20px 0;
+  $hover-color: #c0a066;
+  $option-background: #2b2b2b;
+  $option-padding: 20px;
+  $option-margin: 10px 0;
+  $option-box-size: 200px;
+  $line-length: 100px;
+  $line-thickness: 2px;
+  $star-image-size: 130px;
+  $star-image-margin: 40px;
+  $phone-icon-size: 40px;
+  $service-box-background: #3a3a3a;
+  $service-box-border: 2px solid #333;
+  $large-option-box-size: 600px;
+  $combined-box-size: 460px;
+  $combined-image-size: 640px;
+  $combined-section-padding: 10px;
+  $combined-section-margin: 20px 0;
+  $learn-more-button-background: #c0a066;
+  $learn-more-button-color: #fff;
+  
+}

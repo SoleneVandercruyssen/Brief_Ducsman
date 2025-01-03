@@ -7,7 +7,21 @@ body {
   color: $color_1;
   background-color: $background_2;
   font-family: Montserrat;
+
 }
+
+
+#mail_title{
+  margin-left: 6% ;
+
+}
+
+// [ class*="flaticon" ] {
+
+//   font-size: 5em;
+//   margin: 0.5em;
+// }
+
 
 .class_titre {
 
@@ -50,6 +64,8 @@ body {
 
 iframe{
 
+  width: 1270px;
+  height: 450px;
   filter: grayscale(100);
   object-position: bottom;
   margin-bottom: 10%;
@@ -82,6 +98,19 @@ margin-left: -5%;
 
 .logos {
   display: flex;
+}
+
+
+#téléphone_infos{
+
+
+  margin-top: 2%;
+}
+
+#mail{
+
+margin-top: 2%;
+
 }
 
 /*Souligner l'adresse mail*/
@@ -140,3 +169,24 @@ margin-left: -5%;
 //   text-decoration: none;
 // }
 
+// 
+
+
+@media screen  and (max-width: 780px) {
+  
+
+#one {
+
+max-width: 20%;
+
+}
+
+
+iframe{
+
+width: 800px;
+height: 700px;
+
+}
+
+}
