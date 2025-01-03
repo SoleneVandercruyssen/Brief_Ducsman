@@ -12,30 +12,31 @@
 
 
 .bloc {
-    border: 2px solid black;
     width: 80%;
-    float: right;
+    float: right; 
 }
 
 
 .art1 {
     display: flex;
-    border: 2px solid rgb(5, 5, 5);
-    width: 50vw;
+
 }
 
 .Présentation {
-    background-color: red;
-    border: 2px solid red;
-    width: 70vw;
-    padding: 1%;
+    padding-top: 1%;
+    padding-left: 6%;
+    padding-bottom: 1%;
+    margin-right: 10%;
+    text-align: justify;
 }
 
 .Liste {
-    background-color: rgb(47, 214, 55);
-    border: 2px solid rgb(47, 214, 55);
-    width: 20%;
-    padding: 4%;
+    width: 45%;
+    padding-top: 1%;
+    padding-right: 10%;
+    padding-left: 5%;
+    margin-right: 10%;
+    margin-top: 2%;
 }
 
 
@@ -43,9 +44,7 @@
 
 .check {
     display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
-    width: 37.8%;
+    width: 70%;
 }
 
 li {
@@ -53,46 +52,40 @@ li {
 }
 
 .Check-in {
-    background-color: brown;
-    border: 2px solid brown;
-    padding-right: 20%;
+    padding-right: 25%;
+    padding-left: 10%;
+    padding-top: 1%;
 }
 
 .Check-out {
-    background-color: violet;
-    border: 2px solid violet;
     padding-right: 20%;
+    padding-top: 1%;
 }
 
 
 
 
 .infos {
-    background-color: rgb(212, 168, 168);
-    border: 2px solid black;
-    width: 50vw;
+    width: 52%;
+    padding-left: 6%;
+    padding-top: 3%;
 }
 
 
 
-
-.infos1 {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
-    width: 50.5%;
+.color {
+    color: #d99c52;
 }
 
-.a_propos {
-    background-color: rgb(61, 115, 146);
-    border: 2px solid rgb(61, 115, 146);
-    width: 50%;
-    padding-right: 12%;
+span {
+    color: black;
 }
 
-.Contact {
-    text-align: center;
-    background-color: rgb(128, 83, 0);
-    border: 2px solid rgb(128, 83, 0);
-    width: 25%;
+
+.bouton {
+    margin-top: 2%;
+}
+
+input{
+    padding: 1%;
 }
